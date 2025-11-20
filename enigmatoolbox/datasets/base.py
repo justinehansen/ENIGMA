@@ -770,10 +770,10 @@ def load_summary_stats(disorder=None):
         CortSurf_asymm_ICVeffects = pd.read_csv(
             os.path.join(root_pth, 'summary_statistics', 'Asymm_ICVeffects _CorticalSurf.csv'),
             on_bad_lines='skip')
-        CortThick_asymm_handedness-diff = pd.read_csv(
+        CortThick_asymm_handedness_diff = pd.read_csv(
             os.path.join(root_pth, 'summary_statistics', 'Asymm_Handedness-diff_CorticalThick.csv'),
             on_bad_lines='skip')
-        CortSurf_asymm_handedness-diff = pd.read_csv(
+        CortSurf_asymm_handedness_diff = pd.read_csv(
             os.path.join(root_pth, 'summary_statistics', 'Asymm_Handedness-diff_CorticalSurf.csv'),
             on_bad_lines='skip')
         CortThick_asymm_ageeffects = pd.read_csv(
@@ -803,8 +803,8 @@ def load_summary_stats(disorder=None):
 
         return {'CortThick_asymm_ICVeffects': CortThick_asymm_ICVeffects,
                 'CortSurf_asymm_ICVeffects': CCortSurf_asymm_ICVeffects,
-                'CortThick_asymm_handedness-diff': CortThick_asymm_handedness-diff,
-                'CortSurf_asymm_handedness-diff': CortSurf_asymm_handedness-diff,
+                'CortThick_asymm_handedness-diff': CortThick_asymm_handedness_diff,
+                'CortSurf_asymm_handedness-diff': CortSurf_asymm_handedness_diff,
                 'CortThick_asymm_ageeffects'= CortThick_asymm_ageeffects,
                 'CortSurf_asymm_ageeffects'= CortSurf_asymm_ageeffects,
                 'CortThick_asymm_ageeffects_20years'= CortThick_asymm_ageeffects_20years,
