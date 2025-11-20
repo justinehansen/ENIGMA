@@ -696,7 +696,7 @@ def load_summary_stats(disorder=None):
             os.path.join(root_pth, 'summary_statistics', 'anorexia_acAN_controls_CortSurf_wGlo.csv'),
             on_bad_lines='skip')
         CortThick_anorexia_acANpwrAN_wGlo = pd.read_csv(
-            os.path.join (root_pth, 'summary_statistics', 'anorexia_acAN_pwrAN_CortThick_wGlo.csv')
+            os.path.join (root_pth, 'summary_statistics', 'anorexia_acAN_pwrAN_CortThick_wGlo.csv'),
             on_bad_lines='skip')
         CortSurf_anorexia_acANpwrAN = pd.read_csv(
             os.path.join(root_pth, 'summary_statistics', 'anorexia_acAN_pwrAN_CortSurf.csv'),
